@@ -1,0 +1,103 @@
+{
+    "success": true,
+    "code": 200,
+    "message": "Request successfully processed!",
+    "data": {
+        "id": "5c809513-2a2a-46ca-ac4c-eebac213e6db",
+        "last_driver_id": null,
+        "license_no": "BM 9468 SE",
+        "body_no": null,
+        "unit_transport_id": null,
+        "deleted_at": null,
+        "created_at": "2019-10-11 15:37:59",
+        "updated_at": "2019-10-11 15:37:59",
+        "unitTransport": null,
+        "lastDriver": null,
+        "vehicleTracking": {
+            "odometer": 5000,
+            "driver": null
+        },
+        "invoiceMaintenanceSparePartType": {
+            "id": "d1d9b8a4-a920-4d3d-a893-a28d8f615ae4",
+            "vehicle_id": "5c809513-2a2a-46ca-ac4c-eebac213e6db",
+            "status": "01_YELLOW",
+            "maintenance_km": 0,
+            "confirm_driver_id": null,
+            "kerani_user_id": null,
+            "sequence_no": 1,
+            "is_notified": 0,
+            "driver": null,
+            "kerani": null,
+            "sparePartTypes": [
+                {
+                    "id": "00000000-0000-1011-3000-000000000002",
+                    "name": "lubricant-10000",
+                    "spare_part_group_id": "00000000-0000-1011-2000-000000000001",
+                    "interval_1": 10000,
+                    "interval_2": 500,
+                    "sparePartGroup": {
+                        "id": "00000000-0000-1011-2000-000000000001",
+                        "name": "Lubricant"
+                    },
+                    "vehicleSparePartType": {
+                        "id": "55224ecf-c7a2-4c3e-a173-a16d2a223d0a",
+                        "vehicle_id": "5c809513-2a2a-46ca-ac4c-eebac213e6db",
+                        "spare_part_type_id": "00000000-0000-1011-3000-000000000002",
+                        "install_date": "2019-10-10T17:00:00.000Z",
+                        "install_km": 5000,
+                        "maintenance_date": null,
+                        "maintenance_km": null
+                    },
+                    "spareParts": [
+                        {
+                            "id": "00000000-0000-1011-4000-000000000007",
+                            "name": "Oil Rubia TIR 7400 15W-40, total",
+                            "qty_default": 13,
+                            "qty_unit": null,
+                            "spare_part_type_id": "00000000-0000-1011-3000-000000000002"
+                        }
+                    ],
+                    "pivot": {
+                        "spare_part_type_id": "00000000-0000-1011-3000-000000000002",
+                        "invoice_id": "d1d9b8a4-a920-4d3d-a893-a28d8f615ae4",
+                        "maintenance_level": "01_YELLOW"
+                    }
+                },
+                {
+                    "id": "00000000-0000-1011-3000-000000000001",
+                    "name": "lubricant-5000",
+                    "spare_part_group_id": "00000000-0000-1011-2000-000000000001",
+                    "interval_1": 5000,
+                    "interval_2": 500,
+                    "sparePartGroup": {
+                        "id": "00000000-0000-1011-2000-000000000001",
+                        "name": "Lubricant"
+                    },
+                    "vehicleSparePartType": {
+                        "id": "79b7c111-0daf-4d18-883b-83e61e0435bc",
+                        "vehicle_id": "5c809513-2a2a-46ca-ac4c-eebac213e6db",
+                        "spare_part_type_id": "00000000-0000-1011-3000-000000000001",
+                        "install_date": "2019-10-10T17:00:00.000Z",
+                        "install_km": 5000,
+                        "maintenance_date": null,
+                        "maintenance_km": null
+                    },
+                    "spareParts": [
+                        {
+                            "id": "00000000-0000-1011-4000-000000000008",
+                            "name": "Grease Multis Complex EP 2A,TOTAL",
+                            "qty_default": 2,
+                            "qty_unit": null,
+                            "spare_part_type_id": "00000000-0000-1011-3000-000000000001"
+                        }
+                    ],
+                    "pivot": {
+                        "spare_part_type_id": "00000000-0000-1011-3000-000000000001",
+                        "invoice_id": "d1d9b8a4-a920-4d3d-a893-a28d8f615ae4",
+                        "maintenance_level": "01_YELLOW"
+                    }
+                }
+            ]
+        }
+    }
+}
